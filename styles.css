@@ -1,0 +1,44 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.card {
+    flex: 0 0 200px;
+    margin: 30px;
+    border: 2px solid #000000;
+    box-shadow: 8px 8px 12px 8px  rgba(0,0,0,0.3);
+    background-color: rgb(218, 210, 185);
+  }
+
+  .card img {
+    max-width: 100%;
+  }
+
+  .card .text {
+    padding: 0 20px 20px;
+  }
+
+  button {
+    background: rgb(94, 93, 97);
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+        align-items: end;
+    }
+
+    body {
+        background-color: rgb(221, 210, 210);
+    }
+
+    
